@@ -15,7 +15,7 @@ public class Person {
     @Id
     private Integer id;
 
-    private String age;
+    private Integer age;
 
     private String firstName;
 

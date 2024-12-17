@@ -18,7 +18,7 @@ public class DemoApplication implements CommandLineRunner{
 	private PersonRepository personRepository;
 	@Autowired
 	private SpeciesRepository speciesRepository;
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
